@@ -1,0 +1,55 @@
+/* If you want to reference a HTML element, use the html element (h1, h2 etc)
+If you want to reference a class, class="button", use .button 
+If you want to reference a class within a element, use element.class (h1.center = header 1 with the class="center")
+If you want to reference a id, id="vizContainer" use #vizContainer */
+
+body {
+  background-color: rgb(190, 187, 184);
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #26a69a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+
+button:hover {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  outline: 0;
+  background-color: #ee6e73;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+button:focus {
+  outline: 0;
+  background-color: #ee6e73;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+.rangefilters {
+  padding: 5px;
+}

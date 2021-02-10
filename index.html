@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Embedding B2S DS17</title>
+    <!-- code above gives tab in webpage a name -->
+    <script
+      type="text/javascript"
+      src="https://public.tableau.com/javascripts/api/tableau-2.min.js"
+    ></script>
+    <!-- <! code above loads the script to load tableau public, needs to happen in header to load before any other coding that relies on this language -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- code above loads styling -->
+  </head>
+  <body>
+    <h1>My Amazing Embedded Webpage 🙌🧙‍♂️</h1>
+    <hr />
+    <!-- adds a horicontal line, called a self closing tag -->
+
+    <div>
+      <button id="exportPDF">Export to PDF</button>
+      <button id="exportCrosstab">Export to Crosstab</button>
+    </div>
+
+    <div>
+      <button id="showHideViz">Hide Viz</button>
+    </div>
+    <hr />
+    <input type="number" id="minValue" placeholder="Minimum Value" />
+    <input type="number" id="maxValue" placeholder="Maximum Value" />
+    <button id="applyFilter">Apply Filter</button>
+
+    <div id="vizContainer"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
